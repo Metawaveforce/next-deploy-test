@@ -1,5 +1,14 @@
-import '@/styles/globals.css'
+import '../styles/styles.scss'
+import  {Hboprovider} from '../componets/Hboprovider'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+      <Hboprovider>
+  <Component {...pageProps} />
+  </Hboprovider>
+  
+  )
+  
 }
+
+export default MyApp
