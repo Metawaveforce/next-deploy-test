@@ -18,10 +18,6 @@ const AuthCheck = (component) =>{
             router.push ('/create') 
         }
     }, )
-    if (typeof window !== 'undefined') {
-        // Perform localStorage action
-        const item = localStorage.getItem('key')
-      }
     if (users.length >=1 && activeUID !== null) {
        
         return (

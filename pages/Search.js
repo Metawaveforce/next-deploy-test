@@ -10,6 +10,7 @@ export default class Search extends React.Component{
   }
   render(){
   return(
+    <>
     <section id="listings">
     <section className="search-area">
       <input type="text" name="search" onChange={this.props.onSearchChange} className="search-name"/>
@@ -41,7 +42,9 @@ export default class Search extends React.Component{
                      </ul>
                   </section>
                   
-                  </section>)
+                  </section>
+                  </>
+                  )
   }
                   
 }
