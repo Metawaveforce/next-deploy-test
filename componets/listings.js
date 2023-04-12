@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React, { useState } from 'react';
 import { render } from 'react-dom';
- import listingData from "../componets/listingData";
+ import listingData from "./listingData";
 
 
 
@@ -20,7 +20,7 @@ class Listings extends React.Component{
 
       render(){
        
-     return this.state.listingData.map((listings, index) =>  {
+     return this.props.listingData.map((listings, index) =>  {
       if (this.props.globalState.view == 'box') {
         return(
           <section id="listing" className='col-md-3' key={index}>

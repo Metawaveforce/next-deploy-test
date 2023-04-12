@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Headers from '../pages/Headers';
-import Filters from '../pages/Filters';
-import Listings from '../pages/listings';
-import listingData from './listingData';
-import Search from '../pages/Search';
+import Filters from '../componets/Filters';
+import Listings from '../componets/listings';
+import listingData from '../componets/listingData';
+import Search from '../componets/Search';
 import React, { Component } from "react";
 import Footer from './Footer'
 
