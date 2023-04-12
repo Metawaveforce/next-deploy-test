@@ -16,8 +16,8 @@ export default function Index() {
   
       if( loggedIn === false) {
           router.push ('/create')
-          loggedIn == true;
-        } else{
+        
+        } else if(loggedIn === true){
           router.push ('/')
         }
         }, )  
