@@ -18,7 +18,7 @@ class Filters extends React.Component{
 
 // let [filteredData, setFilteredData]= useState('')
 UNSAFE_componentWillMount(){
-  this.props.PopulateAction()
+  this.props.PopulateFormsData()
 }
 
 

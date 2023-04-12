@@ -411,7 +411,7 @@ return(
 <Headers></Headers>
 <Search change={this.change} onViewBoxChange={this.onViewBoxChange} onSearchChange={this.onSearchChange}></Search>
 <Filters change={this.change} globalState={this.state} onPriceChange={this.onPriceChange}  onMaxPriceChange={this.onMaxPriceChange}
- onfloorSpaceChange={this.onFloorSpaceChange} onMaxfloorSpaceChange={this.onMaxfloorSpaceChange}  PopulateAction={this.PopulateFormsData} onCityChange={this.onCityChange} onHomeChange={this.onHomeChange} onElavatorChange={this.onCheckboxElavatorChange}  onSwimmingPoolChange={this.onCheckboxSwimmingPoolChange} onBasmentChange={this.onCheckboxBasmentChange} onGymChange={this.onCheckboxGymChange} ></Filters>
+ onfloorSpaceChange={this.onFloorSpaceChange} onMaxfloorSpaceChange={this.onMaxfloorSpaceChange}  PopulateFormsData={this.PopulateFormsData} onCityChange={this.onCityChange} onHomeChange={this.onHomeChange} onElavatorChange={this.onCheckboxElavatorChange}  onSwimmingPoolChange={this.onCheckboxSwimmingPoolChange} onBasmentChange={this.onCheckboxBasmentChange} onGymChange={this.onCheckboxGymChange} ></Filters>
 <Listings listingData={this.state.listingData}  change={this.change}  globalState={this.state}></Listings>
 <Footer></Footer>
 </>

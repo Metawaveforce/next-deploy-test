@@ -20,7 +20,7 @@ class Listings extends React.Component{
 
       render(){
        
-     return this.props.listingData.map((listings, index) =>  {
+     return this.state.listingData.map((listings, index) =>  {
       if (this.props.globalState.view == 'box') {
         return(
           <section id="listing" className='col-md-3' key={index}>
