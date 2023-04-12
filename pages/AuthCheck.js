@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import { useRouter} from 'next/router'
 import ls from 'local-storage';
  import { useMounted} from '../Hooks/useMounted'
-// import { truncate } from 'fs';
+import { truncate } from 'fs';
 import { sassTrue } from 'sass';
 
 const AuthCheck = (component) =>{
